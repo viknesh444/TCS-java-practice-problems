@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num:- ");
+        int ip = sc.nextInt();
+        String s = "";
+        while(ip > 0){
+            s = ip%2 + s;
+            ip/=2;
+        }
+        System.out.println(s);
+    }
+}1
